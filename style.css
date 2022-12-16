@@ -1,0 +1,377 @@
+/* 
+ */
+* {
+    margin: 0;
+}
+
+body {
+    width:100vw;
+    background-color: #F1FAEE;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*==============================================================================================================================
+                    STYLES FOR THE INDEX.HTML
+==============================================================================================================================*/
+
+.main-logo {
+    margin-top: 50px;
+}
+
+.main-logo h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #1D3557;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-logo-pat {
+    font-weight: 400;
+    color: #E63946;
+}
+
+.main-logo-counter {
+    margin-top: 3px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.45em;
+    color: #1D3557;
+    margin-bottom: 220px;
+}
+
+.main-logo-counter span {
+    border-bottom: 3px solid #E63946;
+}
+
+.btn button {
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    background: #1D3557;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    color: #F1FAEE;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background: #457B9D;
+    color: azure;
+    
+}
+
+.btn p {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: #457B9D;
+}
+
+.btn p span {
+    font-weight: 700; 
+}
+/*==============================================================================================================================
+                    STYLES FOR THE INTRO.HTML
+==============================================================================================================================*/
+
+
+.sarah-img {
+    width:100vw;
+    margin-top: -20px;
+
+}
+
+.parent{
+    width:100vw;
+    height:150px;
+    position: relative; 
+}
+
+.content {
+    width:100vw;
+    height: 254px;
+    background: #F1FAEE;
+    border-radius: 25px 25px 0px 0px;
+
+    /*Styles for laying a div on another div   It works with the above .parent class styles*/
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    
+}
+
+.content h2 {
+    color: 
+    #1D3557;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 32px;
+}
+
+.content p {
+    margin-top: 20px;
+    padding: 0px 15px;
+    font-size: 15px;
+    line-height: 20px;
+    color:  #1D3557;
+    margin-bottom: 35px;
+}
+
+.btn-okay button {
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    background: #E63946;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    color: #F1FAEE;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+.btn-okay button:hover {
+    background: #457B9D;
+    color: azure; 
+}
+
+/*==============================================================================================================================
+                    STYLES FOR THE SIGNUP.HTML
+==============================================================================================================================*/
+
+h2 {
+    color: #1D3557;
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 2px;
+    padding: 0px 15px;
+    font-size: 15px;
+    color:  #1D3557;
+    margin-bottom: 45px;
+}
+
+form input {
+    width: 270px;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 2px solid #1D3557;
+    background: transparent;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.btn-signup button {
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    margin-top: 20px;
+    background: #E63946;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    color: #F1FAEE;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+.btn-signup button:hover {
+    background: #457B9D;
+    color: azure; 
+}
+
+.btn-signup p {
+    margin-top: 15px;
+}
+
+a {
+    font-weight: 700;
+    color: #E63946;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1D3557;
+}
+
+/*==============================================================================================================================
+                    STYLES FOR THE LOGIN.HTML
+==============================================================================================================================*/
+
+.login-h2-margin {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.btn-login button {
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    margin-top: 20px;
+    background: #E63946;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    color: #F1FAEE;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+.btn-login button:hover {
+    background: #457B9D;
+    color: azure; 
+}
+
+.btn-login p {
+    margin-top: 15px;
+}
+
+/*==============================================================================================================================
+                    STYLES FOR THE BODY.HTML
+==============================================================================================================================*/
+.main-content {
+    width: inherit;
+    height: 100vh;
+    background: #457B9D;
+    padding: 1px;
+}
+
+.main-content h1 {
+    color: #F1FAEE;
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.main-content h1 span {
+    color: #A8DADC;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.date-style {
+    font-size: 25px;
+    font-weight: 400;
+    color: #A8DADC;
+    margin-bottom: 50px;
+}
+
+input[type="date"] {
+    background: transparent;
+    font-family: inherit;
+    font-size: 25px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-datetime-edit-text { color: #A8DADC; padding: 0 0.3em;  }
+::-webkit-calendar-picker-indicator { background: #A8DADC;}
+::-webkit-calendar-picker-indicator:hover { background: #E63946; cursor: pointer;}
+
+.parent-container {
+    width:100vw;
+    height: 100vh;
+    position: relative; 
+}
+
+.container {
+    width: 100vw;
+    height: 530px;
+    background: #F1FAEE;
+    border-radius: 25px 25px 0px 0px;
+
+    /*Styles for laying a div on another div   It works with the above .parent class styles*/
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.container h2 {
+    font-size: 120px;
+    margin-top: -1px;
+    font-weight: 400;
+}
+
+#increment-btn {
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    border-radius: 25px 25px;
+    margin-top: 30px;
+    background: #E63946;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    color: #F1FAEE;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+#increment-btn:hover {
+    background: #457B9D;
+    color: azure; 
+}
+
+#save-btn {
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    border-radius: 25px 25px;
+    margin-top: 20px;
+    background: #1D3557;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    color: #F1FAEE;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+#save-btn:hover {
+    background: #457B9D;
+    color: azure; 
+}
+
+.entries-border {
+    margin-top: 50px;
+    border-top: 5px solid #E63946;
+}
+
+#save-el {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #1D3557;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+
+
+
+
+
+
