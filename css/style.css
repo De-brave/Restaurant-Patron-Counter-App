@@ -1,0 +1,152 @@
+/* CSS styles for the body element */
+body {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    place-items: center;
+    background-color: #457B9D;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* CSS styles for the container element */
+.container {
+    width: 400px;
+    height: inherit;
+    background: #F1FAEE;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* CSS styles for the main logo */
+.main-logo {
+    margin-top: 100px;
+}
+
+/* CSS styles for the main logo's h1 element */
+.main-logo h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #1D3557;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* CSS styles for the main logo's pat element */
+.main-logo-pat {
+    font-weight: 400;
+    color: #E63946;
+}
+
+/* CSS styles for the main logo's counter element */
+.main-logo-counter {
+    margin-top: 3px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.45em;
+    color: #1D3557;
+    margin-bottom: 200px;
+}
+
+/* CSS styles for the span element within the main logo's counter element */
+.main-logo-counter span {
+    border-bottom: 3px solid #E63946;
+}
+
+/* CSS styles for the button element within the .btn class */
+.btn button {
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    background: #1D3557;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    color: #F1FAEE;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+/* CSS styles for the button element within the .btn class when hovered */
+.btn button:hover {
+    background: #457B9D;
+    color: azure;
+    
+}
+
+/* CSS styles for the p element within the .btn class */
+.btn p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #457B9D;
+}
+
+/* CSS styles for the span element within the p element within the .btn class */
+.btn p span {
+    font-weight: 700; 
+}
+
+/* CSS styles for the a element */
+a {
+    font-weight: 700;
+    color: #E63946;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* CSS styles for the a element when hovered */
+a:hover {
+    text-decoration: underline;
+    color: #1D3557;
+}
+
+/* CSS styles for the container element when the screen width is less than or equal to 375px */
+@media screen and (max-width: 375px) {
+    
+    .container {
+        width: 300px;
+        height: 622px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn button {
+        width: 250px;
+        height: 70px;
+    }
+
+    .main-logo h1 {
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        color: #1D3557;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .main-logo-pat {
+        font-weight: 400;
+        color: #E63946;
+    }
+    
+    .main-logo-counter {
+        margin-top: 3px;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.45em;
+        color: #1D3557;
+        margin-bottom: 200px;
+    }
+}
+
+
+
+
+
+
+

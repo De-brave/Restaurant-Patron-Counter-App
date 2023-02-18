@@ -1,27 +1,40 @@
+<!-- The doctype declaration tells the web browser what version of HTML the document is written in -->
 <!DOCTYPE html>
+
+<!-- The opening and closing html tags enclose the entire document -->
 <html lang="en">
 <head>
+    <!-- The meta tag provides metadata about the document's content, such as the character encoding and the viewport size -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="this is a Restaurant Patron Counter App ">
     <meta name="author" content="Godwin Wisdom">
+
+    <!-- The title tag sets the title of the document, which is displayed in the browser's title bar -->
     <title>Restaurant Patron Counter App</title>
+
+    <!-- The link tag is used to link to external resources such as stylesheets, icons and google fonts -->
     <link rel="shortcut icon" href="images/Scrimba_logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main-logo">
-        <h1>RESTAURANT <br><span class="main-logo-pat">PATRON</span></h1>
-        <p class="main-logo-counter"><span>COUNTER</span></p>
-    </div>
-
-    <div class="btn">
-        <a href="html\intro.html"><button>Get Started</button></a>
-        <p>This app is developed by <span>Godwin Wisdom</span></p>
+    <!-- The container class wraps the main content of the page -->
+    <div class="container">
+        <!-- The main logo contains the name of the app and the word "Counter" in a different style -->
+        <div class="main-logo">
+            <h1>RESTAURANT <br><span class="main-logo-pat">PATRON</span></h1>
+            <p class="main-logo-counter"><span>COUNTER</span></p>
+        </div>
+    
+        <!-- The btn class contains a button that links to another page and a paragraph with information about the developer -->
+        <div class="btn">
+            <a href="html\intro.html"><button>Get Started</button></a>
+            <p>This app is developed by <span><a href="https://www.linkedin.com/in/godwin-wisdom" target="_blank">Godwin Wisdom</a></span></p>
+        </div>
     </div>
     
 </body>

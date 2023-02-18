@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    place-items: center;
+    background-color: #457B9D;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    height: inherit;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.main-content {
+    width: inherit;
+    background: #1D3557;
+    padding: 1px;
+}
+
+.main-content h1 {
+    color: #F1FAEE;
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.main-content h1 span {
+    color: #A8DADC;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.date-style {
+    font-size: 25px;
+    font-weight: 400;
+    color: #A8DADC;
+    margin-bottom: 50px;
+}
+
+input[type="date"] {
+    background: transparent;
+    font-family: inherit;
+    font-size: 25px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-datetime-edit-text { color: #A8DADC; padding: 0 0.3em;  }
+::-webkit-calendar-picker-indicator { background: #A8DADC;}
+::-webkit-calendar-picker-indicator:hover { background: #E63946; cursor: pointer;}
+
+.semi-container {
+    background: #F1FAEE;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: inherit;
+    padding-bottom: 12px;
+}
+
+.container h2 {
+    font-size: 130px;
+    margin-top: -1px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #1D3557;
+}
+
+#increment-btn {
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    border-radius: 25px 25px;
+    margin-top: 10px;
+    background: #E63946;
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    color: #F1FAEE;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+#increment-btn:hover {
+    background: #457B9D;
+    color: azure; 
+}
+
+#save-btn {
+    width: 300px;
+    height: 70px;
+    border: 0px;
+    border-radius: 25px 25px;
+    margin-top: 20px;
+    background: #1D3557;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 400;
+    color: #F1FAEE;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+#save-btn:hover {
+    background: #457B9D;
+    color: azure; 
+}
+
+.entries-border {
+    margin-top: 30px;
+    border-top: 5px solid #E63946;
+}
+
+#save-el {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #1D3557;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+@media screen and (max-width: 375px) {
+    
+    .container {
+        width: 300px;
+        height: inherit;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+        
+    .main-content {
+        width: inherit;
+        background: #1D3557;
+        padding: 0px;
+    }
+
+    .main-content h1 {
+        color: #F1FAEE;
+        font-weight: 700;
+        margin-top: 0px;
+        font-size: 26px;
+        margin-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    .date-style {
+        font-size: 20px;
+        font-weight: 400;
+        color: #A8DADC;
+        margin-bottom: 50px;
+    }
+
+    input[type="date"] {
+        background: transparent;
+        font-family: inherit;
+        font-size: 18px;
+    }
+
+        
+    #increment-btn {
+        width: 250px;
+        height: 50px;
+        border-radius: 10px 10px;
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 400;
+        color: #F1FAEE;
+        transition: 0.4s ease-out;
+        cursor: pointer;
+    }
+
+    #save-btn {
+        width: 250px;
+        height: 50px;
+        border-radius: 10px 10px;
+        margin-top: 20px;
+        background: #1D3557;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        font-family: inherit;
+        font-size: 25px;
+    }
+}
